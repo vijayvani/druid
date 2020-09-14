@@ -19,9 +19,15 @@
 
 		<gpg.skip>true</gpg.skip>
 		<javadoc.skip>true</javadoc.skip>
-
+		
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.6</jdk.version>
+
+  		
+  		<sonar.projectKey>vijayvani_druid2</sonar.projectKey>
+  		<sonar.organization>vijayvani-github</sonar.organization>
+ 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
 	</properties>
 
 	<repositories>
@@ -51,9 +57,10 @@
 	</developers>
 
 	<scm>
-		<url>https://wenshao@github.com/alibaba/druid.git</url>
-		<connection>scm:git:https://wenshao@github.com/alibaba/druid.git</connection>
+		<url>https://vijayvani@github.com/vijayvani/druid.git</url>
+		<connection>scm:git:https://vijayvani@github.com/vijayvani/druid.git</connection>
 	</scm>
+
 
 	<organization>
 		<name>Alibaba Group</name>
@@ -213,7 +220,7 @@
 				<toolsjar>${env.JAVA_HOME}/lib/tools.jar</toolsjar>
 				<jconsolejar>${env.JAVA_HOME}/lib/jconsole.jar</jconsolejar>
 			</properties>
-
+			
 			<dependencies>
 				<dependency>
 					<groupId>com.alibaba</groupId>
